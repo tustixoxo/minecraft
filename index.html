@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minecraft - Block Puzzle</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body class="body_background">
+
+	<center>
+
+	<h2 class="bg-primary">Minecraft - Block Puzzle</h2>
+
+	<div id="object_codes" class="bg-info">
+		<p1> Press:</p1>
+		<ul>
+			<li> <kbd>t</kbd> = trunk </li>
+			<li> <kbd>d</kbd> = dark green bush </li>
+			<li> <kbd>l</kbd> = light green bush </li>
+			<li> <kbd>g</kbd> = ground </li>
+			<li> <kbd>b</kbd> = mud </li>
+			<li> <kbd>u</kbd> = soil </li>
+			<li> <kbd>c</kbd> = water </li>
+			<li> <kbd>w</kbd> = wall </li>
+			<li> <kbd>y</kbd> = yellow wall </li>
+			<li> <kbd>r</kbd> = roof </li>
+			<li> <kbd>f</kbd> = flower </li>
+			<li> <kbd>a</kbd> = fruit </li>
+			<li> <kbd>e</kbd> = eraser </li>
+			<br><br>
+			<li> <kbd>Shift + p</kbd> + object code = increase and view size of object </li>
+			<li> <kbd>Shift + m</kbd> + object code = decrease and view size of object </li>
+			<br><br>
+			<li> <kbd>←</kbd> = move player to left </li>
+			<li> <kbd>→</kbd> = move player to right </li>
+			<li> <kbd>↑</kbd> = move player backward </li>
+			<li> <kbd>↓</kbd> = move player forward </li>
+		</ul>
+	</div>
+
+	<div id="head_info" class="bg-danger">
+		<h3>Current Width  = <span id="current_width"> 30 </span></h3>
+		&nbsp;
+		<h3>Current Height  = <span id="current_height"> 30 </span></h3>
+	</div>
+
+	<canvas id="myCanvas" height="600" width="1000"></canvas>
+	
+	<br><br>
+
+	<a href="index2.html"> Need some inspirations?</a>
+
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>

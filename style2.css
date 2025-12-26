@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+#heading {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+img {
+    margin: 50px;
+}
+
+.small-img {
+    border: 10px;
+    border-style: ridge;
+}
